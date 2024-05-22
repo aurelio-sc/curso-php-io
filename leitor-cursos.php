@@ -35,3 +35,9 @@ echo(PHP_EOL.'---------------------'.PHP_EOL);
 
 $cursos = file('lista-cursos.txt');
 var_dump($cursos);
+
+echo(PHP_EOL.'---------------------'.PHP_EOL);
+
+//Bonus: é possível usar diferentes wrappers para ler outros tipo de arquivos.
+
+echo file_get_contents('http://swapi.dev/api/films/4/');  //file_get_contents também pode ser usado para ler arquivos remotos.
