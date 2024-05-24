@@ -1,6 +1,6 @@
 <?php
 
-$diretorioAtual = dir('.'); //Esse método com este parâmetro retorna um objeto do diretório atual.
+$diretorioAtual = dir('.'); //Esse método com este parâmetro retorna um objeto Directory do diretório atual.
 
 echo $diretorioAtual->path . PHP_EOL;
 
